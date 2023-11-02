@@ -38,3 +38,6 @@ easiest way is to put it the `example` in the template file.
 The expectation test can be invoked with `dune test`, and updated with `dune
 promote`, see more in [dune documentation on expectation
 tests](https://dune.readthedocs.io/en/stable/tests.html#inline-expectation-tests).
+
+## TODO
+- [ ] Customize Nix shell to be `zsh`
