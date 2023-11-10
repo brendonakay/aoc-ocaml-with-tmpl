@@ -25,6 +25,7 @@ The functor `Day.Make` generates a function `run` to run the pipeline.
 The main executable, `aoc`, can be invoked via
 
 ```bash
+    # e.g. dune exec aoc 1
     dune exec aoc DAY
 ```
 
@@ -40,4 +41,7 @@ promote`, see more in [dune documentation on expectation
 tests](https://dune.readthedocs.io/en/stable/tests.html#inline-expectation-tests).
 
 ## TODO
+### Flake/Nix
 - [ ] Customize Nix shell to be `zsh`
+### OCaml
+- [ ] Try out expectation tests

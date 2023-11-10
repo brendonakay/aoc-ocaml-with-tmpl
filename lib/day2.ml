@@ -1,6 +1,12 @@
 open! Imports
 
 module M = struct
+  type moves = Rock | Paper | Scissors [@@deriving enum]
+
+  type player = moves
+
+  type opponent = moves
+
   (* Type to parse the input into *)
   type t = unit
 
