@@ -15,6 +15,8 @@
         devShells.default = pkgs.mkShell {
             buildInputs = with pkgs; [
               opam
+              gmp
+              pkg-config
               openssl
             ];
         };
