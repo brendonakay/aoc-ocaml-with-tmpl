@@ -49,4 +49,6 @@ include Day.Make (M)
 let example = ""
 
 (* Expect test for example input *)
-let%expect_test _ = run example ; [%expect {| |}]
+let%expect_test _ = run example ; [%expect {|
+  Part 1: 0
+  Part 2: 0 |}]
