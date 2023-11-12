@@ -2,7 +2,7 @@ open! Imports
 open Base
 
 module M = struct
-  type moves = Rock | Paper | Scissors [@value 1] [@@deriving enum]
+  type moves = Rock [@value 1] | Paper | Scissors [@@deriving enum]
 
   type outcome = Win | Draw | Loss
 
